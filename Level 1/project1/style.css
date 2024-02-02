@@ -49,10 +49,13 @@ button{
     font-size: 17px;
     font-weight: 300;
     border: 1.5px solid black;
+    /* border: none; */
+    background-color: #fff;
     padding: 5px;
     border-radius: 20px;
 }
 .btn{
+    border: 1.5px solid #fff;
     background-color: orangered;
     color: #fff;
 }
@@ -109,7 +112,7 @@ img{
     font-size: 22px;
     opacity: 0.6;
     position: absolute;
-    bottom: 1%;
+    bottom: 0%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
 }

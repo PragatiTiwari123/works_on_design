@@ -68,8 +68,8 @@ button{
     transform: translate(-50%,-50%);
 }
 img{
-    height: 450px;
-    width: 350px;
+    height: 380px;
+    width: 300px;
     object-fit: cover;
     object-position: top;
     position: absolute;
@@ -79,11 +79,37 @@ img{
     border-radius: 20px;
 }
 #img1{
-    transform: translate(-50%,-50%) rotate(10deg);
+    transform: translate(-50%,-50%) rotate(-30deg);
 }
 #img2{
-    transform: translate(-50%,-50%) rotate(-10deg);
+    transform: translate(-50%,-50%) rotate(-20deg);
 }
 #img3{
-    transform: translate(-50%,-50%) rotate(20deg);
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.btm-div{
+    position: absolute;
+    bottom: 1%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.icon{
+    font-size: 18px;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.center-icon{
+    border: 1.5px solid rgba(0, 0, 0,0.6);
+    border-radius:50% ;
+    padding: 8px;
+    font-size: 22px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
